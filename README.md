@@ -142,15 +142,15 @@ Provides insights into merchant and payment performance through:
 
 ### Executive Overview
 
-Insert dashboard screenshot here.
+dashboard.
 
 ### Customer Analysis
 
-Insert dashboard screenshot here.
+dashboard.
 
 ### Merchant & Transaction Analysis
 
-Insert dashboard screenshot here.
+dashboard.
 
 ---
 
