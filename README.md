@@ -1,10 +1,14 @@
 # Financial Transaction Analysis
 
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Portfolio-green)
+
 ## Project Overview
 
 This project analyzes over **13 million financial transactions** using SQL and Power BI to uncover customer spending behavior, merchant performance, payment trends, and transaction success rates.
 
-The objective is to generate actionable business insights that support data-driven decision-making through transaction analytics and interactive dashboard visualization.
+The analysis combines SQL-based business analysis with interactive dashboard visualization to generate actionable insights that support data-driven decision-making.
 
 ---
 
@@ -12,7 +16,7 @@ The objective is to generate actionable business insights that support data-driv
 
 This project uses the **Financial Transactions Dataset: Analytics** from Kaggle.
 
-The dataset contains transaction records, customer demographics, card information, merchant category data, and fraud-related information from a banking environment spanning the 2010s decade.
+The dataset contains transaction records, customer demographic information, card details, and merchant category data from a banking environment spanning the 2010s decade.
 
 ### Data Source
 
@@ -22,11 +26,10 @@ https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets
 
 ### Dataset Components
 
-* `transactions_data.csv` – Transaction records including amounts, timestamps, merchant categories, and transaction status.
+* `transactions_data.csv` – Transaction records including amounts, timestamps, merchant categories, transaction status, and payment activity.
 * `users_data.csv` – Customer demographic and financial information.
 * `cards_data.csv` – Card information and payment method details.
 * `mcc_codes.json` – Merchant category classifications.
-* `train_fraud_labels.json` – Fraud labels for machine learning applications.
 
 ---
 
@@ -52,7 +55,7 @@ This analysis aims to answer the following business questions:
 
 ---
 
-## Dashboard Pages
+## Dashboard Features
 
 ### 1. Executive Overview
 
@@ -126,7 +129,7 @@ Provides insights into merchant and payment performance through:
 * Average spending per customer increased consistently as income levels rose.
 * Customers earning **$150K+** recorded the highest average spending per customer.
 * Customers earning **below $50K** generated the highest total spending due to representing the largest customer segment.
-* High-income customers contribute greater value individually, while lower-income customers drive a substantial portion of total revenue through volume.
+* High-income customers contribute greater value individually, while lower-income customers drive a substantial portion of total revenue through transaction volume.
 
 ### 6. Transaction Success Rate & Error Analysis
 
@@ -156,12 +159,11 @@ Provides insights into merchant and payment performance through:
 
 ## Files Included
 
-| Folder      | Description                              |
-| ----------- | ---------------------------------------- |
-| dashboard   | Power BI dashboard (.pbix)               |
-| sql         | SQL queries used for business analysis   |
-| screenshots | Dashboard screenshots                    |
-| data        | Dataset information and source reference |
+| Folder                | Description                            |
+| --------------------- | -------------------------------------- |
+| dashboard             | Power BI dashboard (.pbix)             |
+| sql                   | SQL queries used for business analysis |
+| dashboard_screenshots | Dashboard screenshots                  |
 
 ---
 
@@ -191,8 +193,10 @@ financial-transaction-analysis/
     └── financial_transaction_dashboard.pbix
 ```
 
-## Author 
+## Author
 
-**SHINTIA BELLA**
+Shintia Bella
+
+Aspiring Data Analyst passionate about data analytics, business intelligence, and dashboard development using SQL and Power BI.
 
 Created as part of a Data Analytics portfolio project demonstrating SQL analysis, business insight generation, and Power BI dashboard development.
