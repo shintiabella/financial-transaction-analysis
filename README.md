@@ -194,4 +194,5 @@ financial-transaction-analysis/
 ## Author 
 
 **SHINTIA BELLA**
+
 Created as part of a Data Analytics portfolio project demonstrating SQL analysis, business insight generation, and Power BI dashboard development.
