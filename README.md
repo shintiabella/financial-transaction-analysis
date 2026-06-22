@@ -170,10 +170,10 @@ Provides insights into merchant and payment performance through:
 ```text
 financial-transaction-analysis/
 │
-├── dashboard/
-│   └── financial_transaction_dashboard.pbix
+├── README.md
 │
 ├── sql/
+│   ├── README.md
 │   ├── 01_monthly_trend_analysis.sql
 │   ├── 02_merchant_category_analysis.sql
 │   ├── 03_card_type_performance.sql
@@ -181,12 +181,14 @@ financial-transaction-analysis/
 │   ├── 05_income_group_analysis.sql
 │   └── 06_transaction_success_rate_analysis.sql
 │
-├── screenshots/
-│   ├── page1_executive_overview.png
-│   ├── page2_customer_analysis.png
-│   └── page3_merchant_transaction_analysis.png
+├── dashboard_screenshots/
+│   ├── README.md
+│   ├── 01_executive_overview.png
+│   ├── 02_customer_analysis.png
+│   └── 03_merchant_transaction_analysis.png
 │
-└── README.md
+└── dashboard/
+    └── financial_transaction_dashboard.pbix
 ```
 
 ## Author
