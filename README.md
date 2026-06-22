@@ -150,7 +150,7 @@ Provides insights into merchant and payment performance through:
 
 ### Merchant & Transaction Analysis
 
-![Merchant & Transaction Analysis](dashboard_screenshots/03_merchant_transaction_analysis.png)
+![Merchant & Transaction Analysis](dashboard_screenshots/03_merchant_transaction_analysis.png.png)
 
 ---
 
