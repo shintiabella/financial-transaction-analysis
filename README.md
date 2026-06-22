@@ -191,6 +191,7 @@ financial-transaction-analysis/
     └── financial_transaction_dashboard.pbix
 ```
 
-## Author
+## Author 
 
+**SHINTIA BELLA**
 Created as part of a Data Analytics portfolio project demonstrating SQL analysis, business insight generation, and Power BI dashboard development.
